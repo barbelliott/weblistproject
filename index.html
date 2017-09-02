@@ -8,31 +8,43 @@
         <meta name="description" content="Barb's list of old time tunes">
         <link rel="stylesheet" href="main.css">
         <link href="css/tunestyle.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="js/project.js"></script>
+
     </head>
     <body>
         <title>Barb's Old-Time Tune List</title>
         <h1>Barb's List of Old-Time Tunes</h1>
         
-        <img src="images/cabin.png" alt="Shenandoah Valley"/>
-        <p>test new repo</p>
+        <img src="images/cabin.png" alt="Old Cabin" width=100%/>
         
-        <h2>Tune List</h2>
+        <input type="text" id="nameInput" onkeyup="nameSearchFunction()" placeholder="Search for tunes..">
         
-        <table style="width:100%">  
+        <input type="text" id="keyInput" onkeyup="keySearchFunction()" placeholder="Search for key..">
+        
+        <table id="tuneTable" style="width:100%">  
             <tr>
                 <th>Name</th>
                 <th>Key</th>
                 <th>Hint</th>
-                <th>Full recording</th>
-                <th>Chord chart</th>
+                <th>Chord Chart</th>
             </tr>
             <tr>
-                <td>Billy in the Lowland </td>
+                <td><a href="tunes/BillyInTheLowland.mp3">Billy in the Lowland</a></td>
                 <td>D</td>
-                <td>
-                    <a href="hints/BillyInTheLowland_hint.m4a">Hint</a>
-                <td><a href="tunes/BillyInTheLowland.mp3">Whole tune</a></td>
-                <td><a href="Chords/BillyInTheLowgroundChords.JPG">Chord chart</a></td>
+                <td><a href="hints/BillyInTheLowland_hint.m4a">Hint</a>
+                <td><a href="chords/BillyInTheLowgroundChords.JPG">Chords</a></td>
+            </tr>
+            <tr>
+                <td>Test 1</td>
+                <td>D</td>
+                <td><a href="hints/BillyInTheLowland_hint.m4a">Hint</a>
+                <td><a href="chords/BillyInTheLowgroundChords.JPG">Chords</a></td>
+            </tr>
+            <tr>
+                <td>Anoother test</td>
+                <td>D</td>
+                <td><a href="hints/BillyInTheLowland_hint.m4a">Hint</a>
+                <td><a href="chords/BillyInTheLowgroundChords.JPG">Chords</a></td>
             </tr>
         </table> 
         

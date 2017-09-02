@@ -19,8 +19,38 @@
         
         <input type="text" id="nameInput" onkeyup="nameSearchFunction()" placeholder="Search for tunes..">
         
-        <input type="text" id="keyInput" onkeyup="keySearchFunction()" placeholder="Search for key..">
+<!--        <input type="text" id="keyInput" onkeyup="keySearchFunction()" placeholder="Search by key..A, C, D, G, Amodel, Whiteface, etc.">-->
         
+        <table id="tuneTable" style="width:100%">  
+            <tr>
+                <th>Name</th>
+                <th onclick="sortTable(1)"><u>Key</u></th>
+                <th>Hint</th>
+                <th>Chord Chart</th>
+            </tr>
+            <tr>
+                <td><a href="tunes/BillyInTheLowland.mp3">Billy in the Lowland</a></td>
+                <td>D</td>
+                <td><a href="hints/BillyInTheLowland_hint.m4a">Hint</a>
+                <td><a href="chords/BillyInTheLowgroundChords.JPG">Chords</a></td>
+            </tr>
+            <tr>
+                <td>Test 1</td>
+                <td>D</td>
+                <td><a href="hints/BillyInTheLowland_hint.m4a">Hint</a>
+                <td><a href="chords/BillyInTheLowgroundChords.JPG">Chords</a></td>
+            </tr>
+            <tr>
+                <td>Anoother test</td>
+                <td>G</td>
+                <td><a href="hints/BillyInTheLowland_hint.m4a">Hint</a>
+                <td><a href="chords/BillyInTheLowgroundChords.JPG">Chords</a></td>
+            </tr>
+        </table> 
+
+        
+        
+<!--
         <table id="tuneTable" style="width:100%">  
             <tr>
                 <th>Name</th>
@@ -47,6 +77,7 @@
                 <td><a href="chords/BillyInTheLowgroundChords.JPG">Chords</a></td>
             </tr>
         </table> 
+-->
         
     </body>
 </html>

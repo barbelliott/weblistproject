@@ -46,10 +46,15 @@ th {
     color: cornsilk;
 }
 
-#keyth {
-
+#th_key {
+    text-decoration: underline;
 }
-  
+
+/*
+#th_name{
+    text-decoration: underline;
+}  
+*/
 
 tr {
     height: 50px;

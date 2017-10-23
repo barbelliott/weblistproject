@@ -8,6 +8,7 @@
         <meta name="description" content="Barb's list of old time tunes">
         <link rel="stylesheet" href="main.css">
         <link href="css/tunestyle.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script type="text/javascript" src="js/project.js"></script>
 
     </head>
@@ -19,7 +20,15 @@
         <img src="images/cabin.png" alt="Old Cabin" width=100%/>
         
         <input type="search" id="nameInput" onkeyup="nameSearchFunction()" style="width:100%" placeholder="Search for tunes">
-        
+            
+<!--Audio player from scratch-->         
+<!--        <audio id="music" controls="controls">
+          <source src="music/onlyidreamwithyou1.mp3" type="audio/mpeg" />
+        </audio>  -->   
+        <i class="fa fa-play-circle-o" style="font-size:48px;color:red"></i>
+<!--        <button id="pButton" class="play" onclick="playAudio()"></button>-->
+<!--Audio player from scratch-->
+            
         <table id="tuneTable" style="width:100%" >  
             <tr>
                 <th id="th_key" onclick="sortTable(0)">Name</th>
@@ -37,7 +46,7 @@
 <!--                <td><a href="tunes/MedicineBow.m4a" target="_blank">Medicine Bow</a></td>-->
                 <td onclick="runAudioControl">Medicine Bow</td>
                 <td><audio controls id="hintPlayer"><source src="hints/MedicineBow_hint.m4a" type="audio/mpeg"></audio></td>
-                <td>D</td>
+                <td><i class="fa fa-play-circle-o" style="font-size:48px;color:red"></i></td>
 <!--                <td><a href="hints/MedicineBow_hint.m4a" target="_blank">Hint</a></td>-->
                 <td><audio controls id="tunePlayer"><source src="tunes/MedicineBow.m4a" type="audio/mpeg" ></audio></td>
             </tr>

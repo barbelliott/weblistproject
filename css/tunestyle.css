@@ -74,14 +74,27 @@ img {
     max-width: 100%;
     height: auto;
 }
-/*
+
 #tunePlayer {
     background-color:burlywood;
 }
 #hintPlayer {
     background-color: brown;
     width: 20px;
-}*/
+}
+
+/*Player styles*/
+.play{background: url('../images/play.png') no-repeat;}
+.pause{background: url('../images/pause.png') no-repeat;}
+
+/*Audio player from scratch*/
+#pButton{
+	height:60px;
+	width: 60px;
+	border: none;
+	background-size: 50% 50%;
+	background-position: center;
+}
 
 /*Search box styles*/
 #nameInput {

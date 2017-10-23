@@ -75,6 +75,14 @@ img {
     height: auto;
 }
 
+#tunePlayer {
+    background-color:burlywood;
+}
+#hintPlayer {
+    background-color: brown;
+    width: 20px;
+}
+
 /*Search box styles*/
 #nameInput {
     background-image: url('/css/searchicon.png'); /* Add a search icon to input */

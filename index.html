@@ -12,19 +12,38 @@
 
     </head>
     <body>
+        <body onload="sortTable(0)">
         <title>Tunes from Hoss Holler</title>
         <h1>Tunes from Hoss Holler</h1>
         
         <img src="images/cabin.png" alt="Old Cabin" width=100%/>
         
-        <input type="text" id="nameInput" onkeyup="nameSearchFunction()" placeholder="Search for tunes..">
+        <input type="search" id="nameInput" onkeyup="nameSearchFunction()" style="width:100%" placeholder="Search for tunes">
         
-        <table id="tuneTable" style="width:100%">  
+        <table id="tuneTable" style="width:100%" >  
             <tr>
                 <th id="th_key" onclick="sortTable(0)">Name</th>
                 <th id="th_key" onclick="sortTable(1)">Key</th>
                 <th>Hint</th>
                 <th>Chords</th>
+            </tr>
+           <!-- <tr>
+                <td><a href="tunes/" target="_blank"></a></td>
+                <td></td>
+                <td><a href="hints/" target="_blank">Hint</a></td>
+                <td><a href="chords/" target="_blank">Chords</a></td>
+            </tr>-->
+            <tr>
+                <td><a href="tunes/MedicineBow.m4a" target="_blank">Medicine Bow</a></td>
+                <td>D</td>
+                <td><a href="hints/MedicineBow_hint.m4a" target="_blank">Hint</a></td>
+                <td><a href="chords/Medicine%20Bow.pdf" target="_blank">Chords</a></td>
+            </tr>
+            <tr>
+                <td><a href="tunes/Maysville.m4a" target="_blank">Maysville</a></td>
+                <td>C</td>
+                <td><a href="hints/Maysville_hint.m4a" target="_blank">Hint</a></td>
+                <td><a href="chords/" target="_blank">No Chords</a></td>
             </tr>
             <tr>
                 <td><a href="tunes/BigTennessee.m4a" target="_blank">Big Tennessee</a></td>
